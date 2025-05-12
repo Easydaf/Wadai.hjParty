@@ -7,7 +7,6 @@
     android:background="@color/white"
     android:padding="24dp">
 
-    <!-- Judul -->
     <TextView
         android:id="@+id/tv_title"
         android:layout_width="wrap_content"
@@ -19,7 +18,6 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <!-- Label Item -->
     <TextView
         android:id="@+id/label_item"
         android:layout_width="wrap_content"
@@ -30,7 +28,6 @@
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginTop="16dp" />
 
-    <!-- Total Item -->
     <TextView
         android:id="@+id/tv_total_items"
         android:layout_width="wrap_content"
@@ -42,7 +39,6 @@
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginTop="4dp" />
 
-    <!-- Label Harga -->
     <TextView
         android:id="@+id/label_price"
         android:layout_width="wrap_content"
@@ -53,7 +49,6 @@
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginTop="16dp" />
 
-    <!-- Total Harga -->
     <TextView
         android:id="@+id/tv_total_price"
         android:layout_width="wrap_content"
@@ -65,7 +60,6 @@
         app:layout_constraintStart_toStartOf="parent"
         android:layout_marginTop="4dp" />
 
-    <!-- Tombol Pesan Sekarang -->
     <Button
         android:id="@+id/btn_whatsapp"
         android:layout_width="0dp"

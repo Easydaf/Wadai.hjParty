@@ -13,7 +13,6 @@
         android:layout_height="wrap_content"
         android:padding="12dp">
 
-        <!-- Gambar Kue -->
         <ImageView
 
             android:id="@+id/img_cart"
