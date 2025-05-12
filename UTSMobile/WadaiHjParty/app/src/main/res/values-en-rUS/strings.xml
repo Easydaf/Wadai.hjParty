@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">WadaiHj.Party</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="beranda">Home</string>
+    <string name="keranjang">Cart</string>
+    <string name="profil">Profile</string>
+    <string name="greeting">Hi, Darren</string>
+    <string name="greeting2">What Cake do you want?</string>
+    <string name="btnback">Back</string>
+    <string name="tvnamecake">Cake Name</string>
+    <string name="tvdesccake">Description Cake</string>
+    <string name="btnAdd">Add to cart</string>
+    <string name="btnCheckout">Checjout</string>
+    <string name="tvOrder">Your Order</string>
+    <string name="tvItem">Item</string>
+    <string name="tvPrice">Price</string>
+    <string name="btnWhatsapp">Order Now</string>
+    <string name="tvProfile">Profile</string>
+    <string name="swtchDark">Dark Mode</string>
+    <string name="tfname">Name</string>
+    <string name="tfphone">Number</string>
+    <string name="language_indonesia">Indonesian</string>
+    <string name="language_english">English</string>
+
+</resources>
