@@ -3,7 +3,9 @@ package com.example.wadaihjparty
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.example.wadaihjparty.databinding.ActivityMainBinding
-import com.example.wadaihjparty.ui.HomeFragment
+import com.example.wadaihjparty.ui.cart.CartFragment
+import com.example.wadaihjparty.ui.home.HomeFragment
+import com.example.wadaihjparty.ui.profile.ProfileFragment
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding
@@ -13,11 +15,10 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        if (savedInstanceState == null) {
+
             supportFragmentManager.beginTransaction()
                 .replace(R.id.fragment_container, HomeFragment())
                 .commit()
-        }
 
         binding.bottomNav.setOnItemSelectedListener { item ->
             when (item.itemId) {
